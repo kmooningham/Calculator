@@ -28,13 +28,13 @@ public class Main {
                     System.out.println("ERROR: Cannot divide by 0.");
                     System.exit(9);
                 }
-                Result = (double) firstOperand / secondOperand;
+                Result = firstOperand / secondOperand;
                 break;
             case "%":
                 Result = firstOperand % secondOperand;
                 break;
             default:
-                System.out.println("ERROR: Incorrect operator used");
+                System.out.println("ERROR: Incorrect operator used.");
                 System.exit(9);
                 break;
         }
